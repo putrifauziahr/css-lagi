@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Attribute selector</title>
+    <style>
+        a[target=kuning]{
+            background-color: yellow;
+        }
+        a[target=merah]{
+            background-color: red;
+            color: white;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <p>Link dengn target="kuning" background-nya berwarna kuning</p>
+    <a href="https://www.polindra.ac.id">Polindra</a>
+    <a href="http://www.elearningf.ti.polindra.ac.id" target="kuning">elearning TI</a>
+    <a href="http://www.ti.polindra.ac.id" target="merah">TI Polindra</a>
+</body>
+</html>

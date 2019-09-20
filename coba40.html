@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title> website layout </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body{
+        margin: 0;
+    }
+    .header{
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
+    .navigation{
+        overflow: hidden;
+        background-color: #03a9f4;
+    }
+    .navigation a{
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .navigation a:hover{
+        background-color: #ddd;
+        color: black;
+    }
+    .aside, .article {
+        float: left;
+        padding: 10px;
+    }
+    .aside {
+        width: 25%;
+    }
+    .article {
+        width: 50%;
+    }
+    @media (max-width:600px){
+        .aside, .article{
+            width: 100%;
+        }
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .footer{
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+        clear:both;
+    }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <h1> HEADER </h1>
+    </div>
+
+    <div class="navigation">
+        <a href="#"> LINK 1</a>
+        <a href="#"> LINK 2</a>
+        <a href="#"> LINK 3</a>
+    </div>
+
+    <div class="container">
+        <div class="aside">
+            <h2> Side </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            </p>
+        </div>
+<div class="article">
+    <h2> Main Content </h2>
+<p>
+        1. Jus lemon bisa membuat ketiak segar sepanjang hari
+
+        Banyak yang percaya jika lemon dapat menggantikan deodoran.
+        
+        “Ini mengharuskanmu menggosok irisan lemon di bawah ketiak atau area lain tubuh yang rentan terhadap keringat, untuk membunuh bakteri penghasil bau dan membuat merasa segar sepanjang hari," kata blogger Anuradha Mohan.
+        
+        Sanggahan:
+        
+        Dokter kulit kosmetik Rinky Kapoor mengatakan, kulit agak asam, dengan pH kurang dari tujuh. Lemon, di sisi lain, sangat asam dengan pH sekitar 3,5 atau 4. Ketika diterapkan, asam sitrat dalam jus lemon justru dapat menyebabkan luka bakar kimiawi dan membuat kulit sensitif terhadap sinar matahari, sehingga menghasilkan lebih banyak pigmentasi.
+</p>
+</div>
+<div class="aside">
+        <h2>
+        Side
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        </p>
+</div>
+</div>
+
+<div class="footer">
+    Footer
+</div>
+</body>
+</html>

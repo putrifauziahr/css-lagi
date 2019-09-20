@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title> Style Navigation bar</title>
+</head>
+
+    <style>
+    *{
+        font-family: verdana;
+        font-size: 15px;
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f3f3f3;
+    }
+    li{
+        float: left;
+    }
+    li a{
+        display: black;
+        color: #666666;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+    li a:hover{
+        background-color: #dddddd;
+    }
+    li a.aktif{
+        background-color: #008CBA;
+        color: white;
+    }
+    
+    </style>
+<body>
+
+    <ul>
+        <li>
+            <a href="navigation1.html" > HOME </a>
+        </li>
+        <li>
+            <a href="navigation2.html" class="aktif"> NEWS </a>
+        </li>
+        <li>
+            <a href="#"> CONTACT </a>
+        </li>
+        <li>
+            <a href="#"> ABOUT </a>
+        </li>
+    </ul>
+</body>
+</html>
